@@ -13,6 +13,7 @@
 		FA88799623A4DEEF009BF517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88799423A4DEEF009BF517 /* Main.storyboard */; };
 		FA88799823A4DEF7009BF517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA88799723A4DEF7009BF517 /* Assets.xcassets */; };
 		FA88799B23A4DEF7009BF517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88799923A4DEF7009BF517 /* LaunchScreen.storyboard */; };
+		FA8879A323A4DFB1009BF517 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA8879A223A4DFB1009BF517 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA88799723A4DEF7009BF517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA88799A23A4DEF7009BF517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA88799C23A4DEF7009BF517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8879A223A4DFB1009BF517 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FA88799723A4DEF7009BF517 /* Assets.xcassets */,
 				FA88799923A4DEF7009BF517 /* LaunchScreen.storyboard */,
 				FA88799C23A4DEF7009BF517 /* Info.plist */,
+				FA8879A223A4DFB1009BF517 /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA88799323A4DEEF009BF517 /* ViewController.swift in Sources */,
+				FA8879A323A4DFB1009BF517 /* Inceptionv3.mlmodel in Sources */,
 				FA88798F23A4DEEF009BF517 /* AppDelegate.swift in Sources */,
 				FA88799123A4DEEF009BF517 /* SceneDelegate.swift in Sources */,
 			);
